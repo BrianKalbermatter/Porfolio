@@ -1,12 +1,39 @@
+@import "tailwindcss";
+/*Custom Propeties font-style*/
 :root
 {
-  --texto_primario: #ffffff
-  color: red;
-
-
-
+  --texto_primario: #a26f36;
+  --texto_titulos: #b67c3c;
+  --texto-links: #a37325;
+}
+/*Custom Propeties backgrounds*/
+:root{
+  --background_toda_pagina: #0c0c0c;
+  --background_primario: #fe8600;
+}
+header
+{
+  background-color: background_toda_pagina;
+}
+h1{
+  height: 120px; /*Alto*/
+  width: 1000px; /*Ancho*/
 }
 
-.p{
-  color: red;
+.texto1-titulo
+{
+ font-style: texto-titulo;
 }
+.encabezado
+{
+  font-style:texto_titulos;
+}
+
+.principal .presentacion_parrafo
+{
+
+  font-style: texto_primariol;
+  background: background_primario;
+}
+
+

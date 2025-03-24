@@ -120,10 +120,10 @@ print(result2)
 print("mola" in "Python mola")
 print("hola ?"in"como estas?")
 #Para saber cuantos caracteres tiene una cadena de texto se utiliza la funcion len() asi:
-print(len("Hola como estas? espero que ",
-    "estes bastante bien. ",
-    "Sabias que me gusta Python y quiero hacer una aplicacion. ",
-    "Aun la estoy pensando que hacer pero mientras estoy aprendiendo mas sobre el lenguaje."))
+#print(len("Hola como estas? espero que ",
+#    "estes bastante bien. ",
+#    "Sabias que me gusta Python y quiero hacer una aplicacion. ",
+#    "Aun la estoy pensando que hacer pero mientras estoy aprendiendo mas sobre el lenguaje."))
 #Tambien puedo convertir los float y int en strings
 print("Esto es de los Strings")
 flotante_decimal = str(10.5)
@@ -141,6 +141,34 @@ print(o[0:])
 
 print(chr(8321))
 print(ord("€"))
+
+dolares = float(input("Decime tu numero de dolares:")); pesos_a = dolares * 1068.25
+print(dolares, "En pesos seria:", pesos_a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
